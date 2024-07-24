@@ -103,6 +103,27 @@ table {
 .top {
     background-color: rgb(243, 243, 243);
     height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-me {
+    width: 35px;
+    margin: auto 10px;
+    border-radius: 50px;
+}
+
+.icons-person {
+    margin-right: 20px;
+    display: flex;
+    width: auto;
+    height: 50px;
+    gap: 20px;
+}
+
+.icon-person {
+    width: 20px;
+    opacity: 0.5;
 }
 
 .notif {
@@ -164,6 +185,12 @@ table {
 .person {
     height: 60px;
     display: flex;
+    border-bottom: 0.5px solid rgb(243, 243, 243);
+}
+
+.person:hover,
+.person:active {
+    background-color: rgb(224, 224, 224);
 }
 
 .img-person {
@@ -193,4 +220,5 @@ table {
 
 .see-image {
     width: 20px;
+    mix-blend-mode: darken;
 }
