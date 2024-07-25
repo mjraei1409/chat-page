@@ -78,26 +78,28 @@ table {
 
 .parent {
     background-color: aqua;
-    width: 1200px;
-    height: 600px;
+    width: 1100px;
+    height: 671px;
     margin: auto;
     display: flex;
     box-shadow: 1px 1px 50px 1px burlywood;
 }
 
 .information {
-    background-color: black;
+    background-color: rgb(243, 243, 243);
     width: 30%;
 }
 
 .chat-page {
-    background-color: blue;
+    background-image: url(background.jpg);
+    background-color: rgba(185, 185, 185, 0.596);
     width: 40%;
+    display: grid;
+    align-content: space-between;
 }
 
 .persons {
     background-color: white;
-    width: 30%;
 }
 
 .top {
@@ -113,7 +115,7 @@ table {
     border-radius: 50px;
 }
 
-.icons-person {
+.icons-top {
     margin-right: 20px;
     display: flex;
     width: auto;
@@ -221,4 +223,105 @@ table {
 .see-image {
     width: 20px;
     mix-blend-mode: darken;
+}
+
+.top-text {
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.send-message {
+    background-color: rgb(243, 243, 243);
+    height: 50px;
+    display: flex;
+}
+
+.information-1 {
+    background-color: white;
+    display: grid;
+    padding: 15px 0;
+}
+
+.information-2 {
+    background-color: white;
+    padding: 10px 0;
+    padding-left: 30px;
+}
+
+.information-3 {
+    background-color: white;
+    padding: 10px 0;
+    padding-left: 30px;
+}
+
+.information-4,
+.information-5,
+.information-6 {
+    background-color: white;
+    padding: 10px 0;
+    padding-left: 30px;
+}
+
+.information-7 {
+    background-color: white;
+    display: grid;
+    align-content: center;
+    height: 50px;
+    padding-left: 30px;
+
+}
+
+.big-profile {
+    width: 150px;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.big-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.phone-number {
+    font-size: 0.75em;
+    opacity: 0.75;
+    text-align: center;
+}
+
+.littel-text-information {
+    font-size: 0.75em;
+    opacity: 0.75;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.normal-text-information {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.img-information-3 {
+    width: 80px;
+    border: 0.1px rgba(0, 41, 0, 0.151) solid;
+}
+
+.icon-send-message {
+    width: 20px;
+    margin: auto 10px;
+    opacity: 0.5;
+}
+
+.input-send-message {
+    background-color: white;
+    height: 70%;
+    width: 75%;
+    margin: auto;
+    border: 0;
+    border-radius: 100px;
 }
